@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -145,7 +144,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a624cdd772f3dfd",
+  "active": "78acbb8716c06e8d",
   "lastOpenFiles": [
     "README.md",
     "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
