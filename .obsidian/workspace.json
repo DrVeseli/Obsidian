@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
+                "file": "Development/Nginx && Systemd.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
+                "file": "Development/Nginx && Systemd.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
+                "file": "Development/Nginx && Systemd.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md"
+                "file": "Development/Nginx && Systemd.md"
               }
             }
           }
@@ -147,11 +147,12 @@
   },
   "active": "7a624cdd772f3dfd",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Development/Nginx && Systemd.md",
+    "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
     "Daily note/02-01-2024.md",
     "README.md",
-    "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
     "Daily note",
-    "Untitled.md",
     "Development",
     "2024-01-02.md"
   ]
