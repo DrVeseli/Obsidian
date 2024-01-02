@@ -139,19 +139,18 @@
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "7a624cdd772f3dfd",
+  "active": "8cc46b3ff4268fd9",
   "lastOpenFiles": [
-    "Daily note/02-01-2024.md",
-    "Daily note",
     "README.md",
+    "Daily note/02-01-2024.md",
     "HTMX/Integration guide for PocketBase.md",
+    "Daily note",
     "Untitled.md",
     "HTMX",
     "2024-01-02.md"

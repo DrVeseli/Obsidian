@@ -1,3 +1,6 @@
 {
-  "accentColor": ""
+  "accentColor": "",
+  "textFontFamily": "OpenDyslexic",
+  "monospaceFontFamily": "OpenDyslexicMono",
+  "baseFontSize": 14
 }
