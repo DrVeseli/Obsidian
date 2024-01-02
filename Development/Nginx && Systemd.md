@@ -47,4 +47,4 @@ server {
 }
 ```
 
-{{{this might not be the latest setup, check on macbook}}}
+{{{this might not be the latest setup, check on MacBook}}}
