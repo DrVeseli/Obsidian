@@ -2,8 +2,6 @@
 Default main.go looks like this:
 
 
-package main
-
 ```
 package main
 
@@ -30,3 +28,10 @@ func main() {
     }
 }
 ```
+
+The one you should use as of 1.1.2024 looks like this:
+```
+
+```
+
+
