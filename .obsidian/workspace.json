@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9ec4cb552d7d4d83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -148,11 +160,11 @@
   },
   "active": "7a624cdd772f3dfd",
   "lastOpenFiles": [
+    "README.md",
+    "Development/Nginx && Systemd.md",
     "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
     "Daily note/03-01-2024.md",
     "Daily note/02-01-2024.md",
-    "README.md",
-    "Development/Nginx && Systemd.md",
     "Untitled.md",
     "Daily note",
     "Development",

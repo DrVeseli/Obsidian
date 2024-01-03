@@ -1,1 +1,1 @@
-This is the Obsidian vault, do not touch manually
+This is the Obsidian vault, do not touch it in GitHub!
