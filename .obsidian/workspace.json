@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily note/02-01-2024.md",
+                "file": "Daily note/03-01-2024.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Daily note/02-01-2024.md",
+                "file": "Daily note/03-01-2024.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Daily note/02-01-2024.md",
+                "file": "Daily note/03-01-2024.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily note/02-01-2024.md"
+                "file": "Daily note/03-01-2024.md"
               }
             }
           }
@@ -144,13 +144,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "78acbb8716c06e8d",
+  "active": "7a624cdd772f3dfd",
   "lastOpenFiles": [
+    "New Text Document.txt",
+    "Daily note/02-01-2024.md",
+    "Daily note/03-01-2024.md",
     "README.md",
     "Development/Boilerplate Pocketbase-G + HTMX + Tmpl.md",
     "Development/Nginx && Systemd.md",
     "Untitled.md",
-    "Daily note/02-01-2024.md",
     "Daily note",
     "Development",
     "2024-01-02.md"
