@@ -1,4 +1,11 @@
-.obsidian
+# Ignore Obsidian data directory
+.obsidian/
+
+# Ignore all executables in all directories
 **/*.exe
-Blog
+
+# Ignore Blog directory
+Blog/
+
+# Ignore README file at the root
 README.md
