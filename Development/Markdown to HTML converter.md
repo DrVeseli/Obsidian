@@ -1,7 +1,7 @@
 
-Need to add full code to GitHub***
+[Full link to github](https://github.com/DrVeseli/sophistry)
 
-The project uses [Blackfriday](https://github.com/russross/blackfriday) by russross
+The project uses [Blackfriday](https://github.com/russross/blackfriday) by russross markdown converter
 
 You need the converter executable, a folder called "Blog" that contains "header.html" and "footer.html".
 

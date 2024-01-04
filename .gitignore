@@ -1,3 +1,4 @@
 .obsidian
-*.exe
+**/*.exe
 Blog
+README.md
