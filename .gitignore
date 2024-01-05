@@ -9,3 +9,6 @@ Blog/
 
 # Ignore README file at the root
 README.md
+
+# Local Netlify folder
+.netlify
