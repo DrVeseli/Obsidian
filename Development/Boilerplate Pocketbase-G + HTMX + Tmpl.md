@@ -1,35 +1,6 @@
 
 Default main.go looks like this:
 
-
-```
-package main
-
-import (
-    "log"
-    "os"
-
-    "github.com/pocketbase/pocketbase"
-    "github.com/pocketbase/pocketbase/apis"
-    "github.com/pocketbase/pocketbase/core"
-)
-
-func main() {
-    app := pocketbase.New()
-
-    // serves static files from the provided public dir (if exists)
-    app.OnBeforeServe().Add(func(e *core.ServeEvent) error {
-        e.Router.GET("/*", apis.StaticDirectoryHandler(os.DirFS("./pb_public"), false))
-        return nil
-    })
-
-    if err := app.Start(); err != nil {
-        log.Fatal(err)
-    }
-}
-```
-
-The one you should use as of 1.1.2024 looks like this:
 ```
 package main
 
@@ -37,15 +8,19 @@ package main
 
 import (
 
-"fmt"
+"bragi/template"
+
+"log"
 
   
 
 "github.com/a-h/templ"
 
-"github.com/a-h/templ-examples/hello-world/template"
+"github.com/labstack/echo/v5"
 
-"github.com/labstack/echo/v4"
+"github.com/pocketbase/pocketbase"
+
+"github.com/pocketbase/pocketbase/core"
 
 )
 
@@ -53,21 +28,21 @@ import (
 
 func main() {
 
-e := echo.New()
+app := pocketbase.New()
 
   
 
-component := template.Hello("John", "Vaine")
+// serves the templ.Handler instead of the static files directory
 
-  
+app.OnBeforeServe().Add(func(e *core.ServeEvent) error {
 
-e.GET("/", func(c echo.Context) error {
+e.Router.GET("/", func(c echo.Context) error {
 
-templ.Handler(template.Whoarewe("GO", "HTMX", "SQLite")).ServeHTTP(c.Response(), c.Request())
+templ.Handler(template.Hello("GO", "HTMX", "Pocketbase")).ServeHTTP(c.Response(), c.Request())
 
-templ.Handler(component).ServeHTTP(c.Response(), c.Request())
+return nil
 
-  
+})
 
 return nil
 
@@ -75,43 +50,40 @@ return nil
 
   
 
-fmt.Println("Listening on :3000")
+if err := app.Start(); err != nil {
 
-e.Start(":3000")
+log.Fatal(err)
 
 }
 
-func Hello(s1, s2 string) {
-
-panic("unimplemented")
+  
 
 }
 ```
 
 
-This is the referenced template 
+This is the referenced template, located in ./template/
 ```
 package template
 
   
 
-templ Whoarewe(back, front, db string){
+templ Hello(back, front, db string){
 
-<h1>Our backend is written in {back} </h1>
+<h1>Welcome to the simple stack</h1>
 
-<h1>Our frontend is written in {front}</h1>
+<p>You are extending {db} with {back} to run the server</p>
 
-<p1>Our data base is {db}</p1>
-
-}
-
-templ Hello(name, last_name string){
-
-<div>Hello {name} {last_name}, how are you?</div>
-
-  
+<p>And the server is returning HTML thanks to {front}</p>
 
 }
 ```
 
 And the templ file is on this link https://pkg.go.dev/github.com/a-h/templ@v0.2.476
+
+The command to generate .go files from .templ is:
+```
+./templ generate (on MacOS)
+```
+
+It requires the executable.
