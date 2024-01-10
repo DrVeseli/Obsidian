@@ -87,3 +87,5 @@ The command to generate .go files from .templ is:
 ```
 
 It requires the executable.
+
+The Hello template is served on localhost:8090, Admin UI on localhost:8090/_/
