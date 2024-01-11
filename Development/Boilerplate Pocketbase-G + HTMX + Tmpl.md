@@ -1,6 +1,8 @@
 
 Default main.go looks like this:
 
+("bragi/template" is "go module/directory")
+
 ```
 package main
 
