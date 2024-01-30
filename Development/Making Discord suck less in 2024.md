@@ -53,3 +53,12 @@ rect.pointerEvents__33f6a {
 ```
 
 One day I will remove the Friends, Nitro, Shop buttons, right now they have no IDs or custom classes, but i can take the first 3 children from a list 
+
+Found it:
+
+```
+/* Removes the Friends, Nitro and Shop buttons*/
+ul.content__23cab li:nth-child(-n + 4) {
+display: none;
+}
+```
