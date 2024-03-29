@@ -3,5 +3,7 @@ I need to write out a auto-cert package for go. one prob exists but it is most l
 
 For now it will only be Debian, I cant bother with anything other then apt for the moment.
 
+--I don't have to do this because I found it already made github.com/caddyserver/certmagic
+
 29.3.24. 
-I need to make a written guide for deploying extended Pocketbase apps 
+I need to make a written guide for deploying extended PocketBase apps 
