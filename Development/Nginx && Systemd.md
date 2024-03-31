@@ -23,7 +23,7 @@ func GenerateSystemdFile(nameValue string, port int) error {
 	RestartSec=5s
 	StandardOutput=append:/var/www/casker/caskers/%[1]s/errors.log
 	StandardError=append:/var/www/casker/caskers/%[1]s/errors.log
-	ExecStart=/var/www/casker/caskers/%[1]s/myapp serve --http="127.0.0.1:%d"
+	ExecStart=/var/www/casker/caskers/%[1]s/myapp serve --arguments"
 	
 	[Install]
 	WantedBy=multi-user.target
