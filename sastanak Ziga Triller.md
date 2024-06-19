@@ -1,3 +1,0 @@
-Monja Dobnik
-David Sarlah
-
